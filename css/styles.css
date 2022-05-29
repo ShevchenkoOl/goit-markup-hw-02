@@ -1,21 +1,20 @@
 :root {
-    --paragraph-color #757575 --h3-color #212121
+    --paragraph-color:#757575; --h3-color:#212121;
+    --link-color:#2196F3;
 }
-
+body{font-family: 'Roboto';}
 .logo-web {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    color: #2196F3;
+    color:var(--link-color);
 }
 
 .logo-studio {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -28,19 +27,8 @@
     text-decoration: none;
 }
 
-.visual-hiding {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
 /*----------------------headr------------------------*/
 .headr-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -51,12 +39,10 @@
 
 .headr-link:hover,
 :focus {
-    color: #2196F3
+    color:var(--link-color);
 }
 
 .headr-contact {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -67,13 +53,11 @@
 
 .headr-contact:hover,
 :focus {
-    color: #2196F3;
+    color:var(--link-color);
 }
 
 /*----------------------main------------------------*/
 .main-button {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -86,8 +70,6 @@
 }
 
 .main-h3 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -98,8 +80,6 @@
 }
 
 .main-h2 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -110,8 +90,6 @@
 }
 
 .main-paragraph {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -121,8 +99,6 @@
 }
 
 .team-name {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -133,8 +109,6 @@
 }
 
 .position {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -146,8 +120,7 @@
 
 /*----------------------footer------------------------*/
 .address {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-style:normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -157,8 +130,6 @@
 }
 
 .footer-contact {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -174,8 +145,6 @@
 
 /*----------------------portfolio------------------------*/
 .main-portfolio-btn {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -189,12 +158,10 @@
 }
 
 .main-portfolio-btn:focus {
-    color: #2196F3;
+    color: var(--link-color);
 }
 
 .main-portfolio-h3 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -204,8 +171,6 @@
 }
 
 .main-portfolio-h3-paragraph {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
